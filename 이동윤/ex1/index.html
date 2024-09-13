@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Bookmark UI</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body class="bg-gray-100">
+        <!-- Navbar -->
+        <div class="flex justify-between items-center bg-white p-4 shadow-md">
+            <div class="flex items-center">
+                <h1 class="text-green-500 text-xl font-bold">BookMark</h1>
+            </div>
+            <div class="flex items-center">
+                <span class="mr-4 font-medium">Github Repo.</span>
+                <img
+                    src="https://via.placeholder.com/30"
+                    alt="profile"
+                    class="rounded-full"
+                />
+            </div>
+        </div>
+
+        <div class="flex justify-center mt-6">
+            <!-- Left Column (Bookmarks) -->
+            <div class="w-1/3 bg-zinc-200 p-4 shadow-md rounded-md mx-4">
+                <h2 class="text-2xl text-center font-semibold mb-4">
+                    BookMark BookMark...
+                </h2>
+                <div class="space-y-4">
+                    <!-- Bookmark Item -->
+                    <div
+                        class="flex items-center p-2 bg-zinc-200 rounded-md border-4 border-gray-100"
+                    >
+                        <img
+                            src="https://via.placeholder.com/40"
+                            alt="icon"
+                            class="object-cover h-8 w-8 mr-4"
+                        />
+                        <div class="flex-1">
+                            <h3 class="font-semibold">55BookMark Book...</h3>
+                            <p class="text-sm text-gray-600">
+                                55나만의 북마크...
+                            </p>
+                        </div>
+                        <button class="ml-2">
+                            <img
+                                class="object-cover h-8 w-8"
+                                src="src/setting-cog.png"
+                                alt="settings"
+                            />
+                        </button>
+                    </div>
+
+                    <!-- 네이버 -->
+                    <div
+                        class="flex items-center p-2 bg-zinc-200 rounded-md border-4 border-gray-100"
+                    >
+                        <img
+                            src="src/naver_logo.jpg"
+                            alt="icon"
+                            class="object-cover h-8 w-8 mr-4"
+                        />
+                        <div class="flex-1">
+                            <h3 class="font-semibold">네이버</h3>
+                            <p class="text-sm text-gray-600">
+                                네이버 메인에서...
+                            </p>
+                        </div>
+                        <button class="ml-2">
+                            <img
+                                class="object-cover h-8 w-8"
+                                src="src/setting-cog.png"
+                                alt="settings"
+                            />
+                        </button>
+                    </div>
+
+                    <!-- 카카오 -->
+                    <div
+                        class="flex items-center p-2 bg-zinc-200 rounded-md border-4 border-gray-100"
+                    >
+                        <img
+                            src="src/kakao_logo.png"
+                            alt="icon"
+                            class="object-cover h-8 w-8 mr-4"
+                        />
+                        <div class="flex-1">
+                            <h3 class="font-semibold">Kakao</h3>
+                            <p class="text-sm text-gray-600">
+                                기술과 사람으로 더 나은...
+                            </p>
+                        </div>
+                        <button class="ml-2">
+                            <img
+                                class="object-cover h-8 w-8"
+                                src="src/setting-cog.png"
+                                alt="settings"
+                            />
+                        </button>
+                    </div>
+
+                    <!-- 유튜브 -->
+                    <div
+                        class="flex items-center p-2 bg-zinc-200 rounded-md border-4 border-gray-100"
+                    >
+                        <img
+                            src="src/youtube_logo.png"
+                            alt="icon"
+                            class="object-cover h-8 w-8 mr-4"
+                        />
+                        <div class="flex-1">
+                            <h3 class="font-semibold">YouTube</h3>
+                            <p class="text-sm text-gray-600">
+                                YouTube에서 마음에 드...
+                            </p>
+                        </div>
+                        <button class="ml-2">
+                            <img
+                                class="object-cover h-8 w-8"
+                                src="src/setting-cog.png"
+                                alt="settings"
+                            />
+                        </button>
+                    </div>
+
+                    <!-- Add Mark Button -->
+                    <button
+                        class="w-60 py-2 bg-neutral-800 text-white rounded-md mt-4"
+                    >
+                        + Add Mark
+                    </button>
+                </div>
+            </div>
+
+            <!-- Right Column (Study) -->
+            <div class="w-1/3 bg-zinc-200 p-4 shadow-md rounded-md mx-4">
+                <h2 class="text-2xl text-center font-semibold mb-4">Study</h2>
+                <div class="space-y-4">
+                    <!-- Tailwind CSS -->
+                    <div
+                        class="flex items-center p-2 bg-zinc-200 rounded-md border-4 border-gray-100"
+                    >
+                        <img
+                            src="src/tailwind_logo.png"
+                            alt="icon"
+                            class="object-cover h-8 w-8 mr-4"
+                        />
+                        <div class="flex-1">
+                            <h3 class="font-semibold">Tailwind CSS -...</h3>
+                            <p class="text-sm text-gray-600">
+                                Tailwind CSS is a utility...
+                            </p>
+                        </div>
+                        <button class="ml-2">
+                            <img
+                                class="object-cover h-8 w-8"
+                                src="src/setting-cog.png"
+                                alt="settings"
+                            />
+                        </button>
+                    </div>
+
+                    <!-- Create Next App -->
+                    <div
+                        class="flex items-center p-2 bg-zinc-200 rounded-md border-4 border-gray-100"
+                    >
+                        <img
+                            src="https://via.placeholder.com/40"
+                            alt="icon"
+                            class="object-cover h-8 w-8 mr-4"
+                        />
+                        <div class="flex-1">
+                            <h3 class="font-semibold">Create Next App...</h3>
+                            <p class="text-sm text-gray-600">
+                                Generated by create...
+                            </p>
+                        </div>
+                        <button class="ml-2">
+                            <img
+                                class="object-cover h-8 w-8"
+                                src="src/setting-cog.png"
+                                alt="settings"
+                            />
+                        </button>
+                    </div>
+
+                    <!-- Add Mark Button -->
+                    <button
+                        class="w-60 py-2 bg-neutral-800 text-white rounded-md mt-4"
+                    >
+                        + Add Mark
+                    </button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

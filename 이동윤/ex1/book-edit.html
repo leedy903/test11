@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Bookmark UI</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body class="bg-gray-100">
+        <!-- Navbar -->
+        <div class="flex justify-between items-center bg-white p-4 shadow-md">
+            <div class="flex items-center">
+                <h1 class="text-green-500 text-xl font-bold">BookMark</h1>
+            </div>
+            <div class="flex items-center">
+                <a href="#" class="text-gray-700 mr-4">Github Repo.</a>
+                <a href="#" class="text-gray-700 mr-4">SignUp</a>
+                <a href="#" class="text-gray-700">SignIn</a>
+            </div>
+        </div>
+
+        <div class="flex justify-start h-screen mt-6">
+            <div class="bg-zinc-200 p-4 shadow-md rounded-md mx-4">
+                <div class="space-y-4">
+                    <div class="flex items-center p-2 bg-gray-100 rounded-md">
+                        <div class="flex-1">
+                            <p class="text-bold">https://naver.com</p>
+                        </div>
+                    </div>
+                    <div class="font-semibold">
+                        <h3>이동 시 자동 삭제</h3>
+                    </div>
+                    <div class="conatiner mx-auto">
+                        <div class="mt-1">
+                            <!-- Add Mark Button -->
+                            <button
+                                class="w-20 h-10 bg-neutral-800 text-white rounded-md mt-4"
+                            >
+                                Rollback
+                            </button>
+                            <!-- Add Mark Button -->
+                            <button
+                                class="w-20 h-10 bg-neutral-800 text-white rounded-md mt-4"
+                            >
+                                Save
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-start mt-6">
+                <!-- Add Mark Button -->
+                <button
+                    class="w-60 h-10 bg-neutral-800 text-white rounded-md mt-4"
+                >
+                    + Add Book
+                </button>
+            </div>
+        </div>
+    </body>
+</html>
